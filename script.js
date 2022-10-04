@@ -23,7 +23,11 @@ setInterval(() => {
 setInterval(() => {
     move(neptune);
 }, 100)
-let x, y;
+setInterval(() => {
+        astro();
+    },
+    20);
+let x, y, l = 0;
 
 function sun() {
     const Sun_left = (window.innerWidth / 2) - 35;
@@ -35,13 +39,13 @@ function sun() {
     y = Sun_top;
 }
 const mercury = {
-    speed: 0.1,
+    speed: 0.4,
     angle: 0,
     radius: 100,
     pl: '.mercury'
 }
 const venus = {
-    speed: 0.099,
+    speed: 0.2,
     angle: 0,
     radius: 130,
     pl: '.venus'
@@ -53,34 +57,40 @@ const earth = {
     pl: '.earth'
 }
 const mars = {
-    speed: 0.09,
+    speed: 0.07,
     angle: 0,
     radius: 200,
     pl: '.mars'
 }
 const jupiter = {
-    speed: 0.06,
+    speed: 0.05,
     angle: 0,
     radius: 280,
     pl: '.jupiter'
 }
 const saturn = {
-    speed: 0.05,
+    speed: 0.035,
     angle: 0,
     radius: 380,
     pl: '.saturn'
 }
 const uranus = {
-    speed: 0.04,
+    speed: 0.020,
     angle: 0,
     radius: 470,
     pl: '.uranus'
 }
 const neptune = {
-    speed: 0.025,
+    speed: 0.005,
     angle: 0,
     radius: 530,
     pl: '.neptune'
+}
+
+function astro() {
+    var astro = document.getElementsByClassName('astro');
+    l += 31.4;
+    astro[0].style.top = 250 + Math.floor(Math.cos(l) * 50) + 'px';
 }
 
 function move(planet) {
