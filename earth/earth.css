@@ -38,6 +38,13 @@ body {
     left: 17%;
 }
 
+.bird {
+    height: 2rem;
+    position: absolute;
+    top: 37%;
+    left: 65%;
+}
+
 #back {
     height: 1.5rem;
     width: 4rem;

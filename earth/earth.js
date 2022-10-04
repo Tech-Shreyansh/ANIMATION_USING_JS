@@ -7,9 +7,13 @@ setInterval(() => {
 setInterval(() => {
     aeroplane()
 }, 35)
+setInterval(() => {
+    bird()
+}, 119)
 
 let c = 0,
     m = 0,
+    b = 0,
     a = 0;
 
 function man() {
@@ -36,4 +40,14 @@ function aeroplane() {
     aeroplane[0].style.left = 250 + Math.floor(a) + 'px';
     if (a > 800)
         a = 0;
+}
+
+function bird() {
+    var bird = document.getElementsByClassName('bird');
+    b += 5;
+    bird[0].style.left = 930 + Math.floor(b) + 'px';
+    bird[0].style.top = 300 + Math.floor(b * 0.1) + 'px';
+
+    if (b > 230)
+        b = 0;
 }
