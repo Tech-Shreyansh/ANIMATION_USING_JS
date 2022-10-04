@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
     background-image: url("./img/bg.jpeg");
 }
 
@@ -107,8 +110,11 @@
     left: 4rem;
     top: 25rem;
     width: 7rem;
-    height: auto;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+}
+
+.spaceship {
+    width: 10rem;
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
 }

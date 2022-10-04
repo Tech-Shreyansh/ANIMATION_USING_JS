@@ -27,7 +27,12 @@ setInterval(() => {
         astro();
     },
     20);
-let x, y, l = 0;
+setInterval(() => {
+        spaceship();
+    },
+    20);
+let x, y, l = 0,
+    m = 0;
 
 function sun() {
     const Sun_left = (window.innerWidth / 2) - 35;
@@ -89,8 +94,14 @@ const neptune = {
 
 function astro() {
     var astro = document.getElementsByClassName('astro');
+    m += 31.4;
+    astro[0].style.top = 250 + Math.floor(Math.cos(m) * 50) + 'px';
+}
+
+function spaceship() {
+    var spaceship = document.getElementsByClassName('spaceship');
     l += 31.4;
-    astro[0].style.top = 250 + Math.floor(Math.cos(l) * 50) + 'px';
+    spaceship[0].style.left = 75 + Math.floor(Math.cos(l) * 25) + 'px';
 }
 
 function move(planet) {
