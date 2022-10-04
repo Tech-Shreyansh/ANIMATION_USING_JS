@@ -122,11 +122,23 @@ html {
 #back {
     height: 1.5rem;
     width: 4rem;
-    background: linear-gradient(to right, rgb(255, 153, 0), red);
+    background: linear-gradient(to right, rgb(0, 153, 255), rgb(255, 0, 72));
     border-radius: 20%;
     position: absolute;
     bottom: 2.5rem;
     right: 2.5rem;
     text-align: center;
     border-style: outset;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#back:hover {
+    height: 1.7rem;
+    width: 4.4rem;
+    background: linear-gradient(to right, rgb(0, 255, 115), rgb(255, 170, 0));
+    border-radius: 20%;
+    border-style: inset;
+    color: rgb(8, 8, 8);
+    text-decoration: underline;
 }
