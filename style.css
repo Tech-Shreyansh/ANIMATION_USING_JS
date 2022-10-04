@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sun {
+    background-image: url("./img/sun.jpg");
+    background-size: 10rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.mercury {
+    background-image: url("./img/mercury.jpg");
+    background-size: 10rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
