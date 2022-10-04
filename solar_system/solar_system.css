@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url("../img/bg.jpeg");
+}
+
+.sun {
+    background-image: url("../img/sun.jpg");
+    background-size: 10rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.mercury {
+    background-image: url("../img/mercury.jpg");
+    background-size: 10rem;
+    height: 0.9rem;
+    width: 0.9rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.venus {
+    background-image: url("../img/venus.jpg");
+    background-size: 10rem;
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.earth {
+    background-image: url("../img/earth.jpeg");
+    background-size: 4rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mars {
+    background-image: url("../img/mars.jpg");
+    background-size: 10rem;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.jupiter {
+    background-image: url("../img/jupiter.jpg");
+    background-size: 15rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.saturn {
+    background-image: url("../img/saturn.jpg");
+    background-size: 10rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0.5rem;
+}
+
+.uranus {
+    background-image: url("../img/uranus.jpg");
+    background-size: 10rem;
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.neptune {
+    background-image: url("../img/neptune.jpg");
+    background-size: 10rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.astro {
+    position: absolute;
+    left: 4rem;
+    top: 25rem;
+    width: 7rem;
+}
+
+.spaceship {
+    width: 10rem;
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
+}
+
+#back {
+    height: 1.5rem;
+    width: 4rem;
+    background: linear-gradient(to right, rgb(255, 153, 0), red);
+    border-radius: 20%;
+    position: absolute;
+    bottom: 2.5rem;
+    right: 2.5rem;
+    text-align: center;
+    border-style: outset;
+}
