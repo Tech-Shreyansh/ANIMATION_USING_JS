@@ -107,5 +107,5 @@ function spaceship() {
 function move(planet) {
     planet.angle += planet.speed;
     document.querySelector(planet.pl).style.left = Math.floor(Math.cos(planet.angle) * planet.radius) + x + 40 + 'px';
-    document.querySelector(planet.pl).style.top = Math.floor(Math.sin(planet.angle) * planet.radius) + y + 60 + 'px';
+    document.querySelector(planet.pl).style.top = Math.floor(Math.sin(planet.angle) * planet.radius) + y + 35 + 'px';
 }
