@@ -10,6 +10,9 @@ setInterval(() => {
 setInterval(() => {
     bird()
 }, 119)
+setInterval(() => {
+    bird2()
+}, 200)
 
 let c = 0,
     m = 0,
@@ -50,4 +53,10 @@ function bird() {
 
     if (b > 230)
         b = 0;
+}
+
+function bird2() {
+    var bird2 = document.getElementsByClassName('bird2');
+    bird2[0].style.left = 340 + Math.floor(b) + 'px';
+    bird2[0].style.top = 340 - Math.floor(b * 0.1) + 'px';
 }

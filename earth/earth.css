@@ -68,6 +68,18 @@ body {
     transition: 0.4s;
 }
 
+.bird2 {
+    height: 2rem;
+    position: absolute;
+    top: 47%;
+    left: 18%;
+}
+
+.bird2:hover {
+    transform: scale(1.8);
+    transition: 0.4s;
+}
+
 #back {
     height: 1.5rem;
     width: 4rem;
