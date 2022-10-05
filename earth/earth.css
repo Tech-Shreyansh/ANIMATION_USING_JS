@@ -26,10 +26,22 @@ body {
     left: 35%;
 }
 
+.man:hover {
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+
 .car {
     position: absolute;
     top: 72%;
     left: 17%;
+}
+
+.car:hover {
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    transition: 1s;
 }
 
 .aeroplane {
@@ -38,11 +50,22 @@ body {
     left: 17%;
 }
 
+.aeroplane:hover {
+    position: absolute;
+    top: 4%;
+    transition: 1s;
+}
+
 .bird {
     height: 2rem;
     position: absolute;
     top: 37%;
     left: 65%;
+}
+
+.bird:hover {
+    transform: scale(1.8);
+    transition: 0.4s;
 }
 
 #back {
@@ -65,4 +88,6 @@ body {
     border-style: inset;
     color: rgb(8, 8, 8);
     text-decoration: underline;
+    transform: scale(1.5);
+    transition: 0.4s;
 }

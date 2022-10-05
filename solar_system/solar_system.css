@@ -126,11 +126,32 @@ html {
     width: 7rem;
 }
 
+.astro:hover {
+    transform: scale(1.3);
+    transition: 1s;
+}
+
 .spaceship {
     width: 10rem;
     position: absolute;
     left: 2rem;
     top: 1rem;
+}
+
+.spaceship:hover {
+    transform: rotateZ(90deg);
+    transition: 1s;
+}
+
+
+/* .spaceship:hover {
+    transform: scale(1.3);
+    transition: 1s;
+} */
+
+.planet:hover {
+    transform: scale(1.5);
+    transition: 1s;
 }
 
 #back {
@@ -155,4 +176,6 @@ html {
     border-style: inset;
     color: rgb(8, 8, 8);
     text-decoration: underline;
+    transform: scale(1.5);
+    transition: 0.4s;
 }
