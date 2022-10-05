@@ -1,4 +1,7 @@
 setInterval(sun, 100);
+setInterval(spaceship, 20);
+setInterval(astro, 20);
+
 setInterval(() => {
     move(mercury);
 }, 100)
@@ -23,14 +26,7 @@ setInterval(() => {
 setInterval(() => {
     move(neptune);
 }, 100)
-setInterval(() => {
-        astro();
-    },
-    20);
-setInterval(() => {
-        spaceship();
-    },
-    20);
+
 let x, y, l = 0,
     m = 0;
 
